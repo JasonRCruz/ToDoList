@@ -29,11 +29,14 @@ button{
     background-color: darkgreen;
 }
 
-.del-button{
+.delete-button{
     background-color: red;
 }
-.del-button:hover{
+.delete-button:hover{
     background-color: darkred;
+}
+.move-button{
+    background-color: lightskyblue;
 }
 input[type= "text"]{
     font-size: 1.6rem;
