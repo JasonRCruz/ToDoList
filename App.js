@@ -61,7 +61,7 @@ function ToDoList () {
     // JSX for rendering the ToDoList component
     return(
     <div className = "to-do-list">
-        <h1>To-Do-List</h1>
+        <h1>Today's Tasks</h1>
 
         <div>
             <input
