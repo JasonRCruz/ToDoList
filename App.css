@@ -11,22 +11,45 @@ h1{
     color: white;
 
 }
-button{
-    font-size: 1.7rem;
-    font-weight: bold; 
-    padding: 10px 20px;
+button {
+    font-size: 2vh; 
+    font-weight: bold;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 10vh; 
+    height: 10vh; 
     cursor: pointer;
-    transition: background-color 0.5 ease;
-}
-.add-button{
-    background-color: green;
+    transition: background-color 0.5s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-.add-button:hover{
-    background-color: darkgreen;
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+
+button.add-button {
+    background-color: transparent; 
+    background-image: url('add.png'); 
+    background-size: contain;
+    background-repeat: no-repeat; 
+    width: 10vw;
+    height: 10vw; 
+    border: none; 
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.2s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+button.add-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
 }
 
 .delete-button{
