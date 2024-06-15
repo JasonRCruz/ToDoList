@@ -1,5 +1,7 @@
 body{
-    background-color: black;
+    background: linear-gradient(black, blue);
+    height: 100vh;
+    margin: 0;
 }
 .to-do-list{
     font-family: Arial, sans-serif;
